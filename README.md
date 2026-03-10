@@ -43,15 +43,15 @@ Forge solves this by shipping that entire AI-native development environment as p
 ## Quick Start
 
 ```bash
-# Coming soon
 npx create-forge-app my-app
+```
 
-# For now — clone directly
-git clone https://github.com/yourusername/forge my-app
+Pick your animation library when prompted, then:
+
+```bash
 cd my-app
-pnpm install
 cp .env.example .env
-# Fill in DATABASE_URL and BETTER_AUTH_SECRET in .env
+# Fill in DATABASE_URL and BETTER_AUTH_SECRET
 pnpm db:push
 pnpm dev
 ```
@@ -256,7 +256,7 @@ The database MCP is intentionally connected to your dev database only. Never poi
 - [x] Tailwind v4 + shadcn/ui
 - [x] Full Claude Code setup (CLAUDE.md, AGENTS.md, MCP, hooks, agents, commands, skills)
 - [x] Motion animation adapter
-- [ ] `create-forge-app` CLI with interactive setup (Motion / GSAP choice)
+- [x] `create-forge-app` CLI with interactive setup (Motion / GSAP choice)
 - [ ] GSAP animation adapter
 - [ ] Background jobs adapter (Inngest / Trigger.dev)
 - [ ] Storage adapter (R2 / S3 / local)
