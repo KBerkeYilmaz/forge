@@ -46,3 +46,6 @@ yarn-error.log*
 .idea
 # next-agents-md
 .next-docs/
+
+# internal planning docs
+/docs/
