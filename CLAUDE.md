@@ -112,3 +112,27 @@ Before marking a task complete:
 2. `pnpm build` succeeds (or at minimum no new errors)
 3. New code has at least one test
 4. No hardcoded secrets or env vars in code
+
+## Available Skills (invoke with /skill-name)
+
+**Next.js & React (Vercel)**
+- `/vercel-react-best-practices` — 40+ performance rules, eliminating waterfalls, bundle size
+- `/vercel-composition-patterns` — Compound components, state lifting, composition patterns
+- `/web-design-guidelines` — UI/UX design principles for production apps
+- `/deploy-to-vercel` — Deployment config, environment setup, edge functions
+
+**Web Quality (Addy Osmani)**
+- `/performance` — Load time, Core Web Vitals optimization
+- `/core-web-vitals` — LCP, INP, CLS — page experience signals
+- `/accessibility` — WCAG 2.1, screen readers, keyboard nav
+- `/seo` — Meta tags, structured data, sitemaps
+- `/web-quality-audit` — Comprehensive audit (all of the above)
+
+**Forge Custom**
+- `/new-component` — Scaffold component + test
+- `/new-api-route` — tRPC router + procedure
+- `/new-feature` — Full feature scaffold
+- `/security-audit` — Run security auditor agent
+- `/refactor-plan` — Analyze before touching code
+
+**Next.js 16 Docs:** See AGENTS.md — full API index with local doc files in `.next-docs/`
