@@ -18,7 +18,8 @@
     "test:e2e": "playwright test",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "agents-md": "npx @next/codemod@canary agents-md --output AGENTS.md"
   },
   "dependencies": {
     "@base-ui/react": "^1.2.0",
