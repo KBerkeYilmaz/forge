@@ -1,0 +1,34 @@
+{
+  "name": "create-forge-app",
+  "version": "0.1.0",
+  "description": "Create a new Forge app — AI-optimized Next.js 16 boilerplate",
+  "type": "module",
+  "bin": {
+    "create-forge-app": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.9.0",
+    "execa": "^9.5.2",
+    "fs-extra": "^11.3.0",
+    "tiged": "^2.12.7"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.14.10",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["create-forge-app", "forge", "nextjs", "boilerplate", "claude-code"],
+  "license": "MIT"
+}

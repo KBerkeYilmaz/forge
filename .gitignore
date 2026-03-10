@@ -49,3 +49,6 @@ yarn-error.log*
 
 # internal planning docs
 /docs/
+
+# cli build output
+packages/cli/dist/
