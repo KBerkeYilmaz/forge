@@ -1,6 +1,6 @@
 {
   "name": "create-forge-app",
-  "version": "0.1.001",
+  "version": "0.1.002",
   "description": "Create a new Forge app — AI-optimized Next.js 16 boilerplate",
   "type": "module",
   "bin": {
